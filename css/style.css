@@ -183,7 +183,7 @@ body._lock {
   background: radial-gradient(circle, rgb(254, 218, 161) 0%, rgb(190, 124, 57) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  line-height: 1.1;
+  line-height: 1.2;
 }
 
 .address {
