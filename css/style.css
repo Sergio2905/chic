@@ -177,13 +177,13 @@ body._lock {
 }
 
 .intro {
-  margin: -80px 0;
   font-family: "BickhamScriptPro";
   font-weight: 700;
   font-size: 8.375rem;
   background: radial-gradient(circle, rgb(254, 218, 161) 0%, rgb(190, 124, 57) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  line-height: 1.1;
 }
 
 .address {
@@ -231,7 +231,6 @@ body._lock {
 @media (max-width: 1920px) {
   .intro {
     font-size: calc(3.75rem + 74 * (100vw - 20rem) / 1600);
-    margin: calc(-30px + -50 * (100vw - 320px) / 1600) 0;
   }
 
   .address {
